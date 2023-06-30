@@ -1,0 +1,118 @@
+:root {
+    --orange: rgb(255, 133, 81);
+    --sla: rgb(250, 240, 228);
+    --cinza: rgb(155, 205, 210);
+    --owkgfo: rgb(255, 222, 222);
+    --fundo: url(./assets/img/fundo.jpg);
+
+    --honeydew: rgba(237, 255, 236, 1);
+  --light-green: rgba(97, 231, 134, 1);
+  --davys-gray: rgba(90, 87, 102, 1);
+  --english-violet: rgba(72, 67, 92, 1);
+  --tropical-indigo: rgba(151, 146, 227, 1);
+  }
+
+
+
+  /*@media (max-width: 1366px) {*/
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      
+    }
+
+    #container {
+      height: 100vh;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: rgb(255, 255, 255);
+    }
+
+    #form_cadastro {
+      background-color: var(--english-violet);
+      color: rgba(255, 255, 255, 0.822);
+      display: flex;
+      flex-direction: column;
+      padding: 20px 30px;
+      gap: 20px; /*espaçamento igual para os elementos do formulário*/
+      box-shadow: -4px 6px 96px -64px rgba(0, 0, 0, 0.75);
+      height: fit-content;
+    }
+
+    #form_header {
+      word-break: keep-all;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    #form_header h1 {
+      font-size: 50px;
+    }
+
+    #inputs {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .input-box {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+      padding: 1px;
+      cursor: text;
+      border-bottom: 1px solid black;
+    }
+
+    .input-box label {
+      font-size: 15px;
+    }
+
+    .input-box input {
+      border: none;
+      background-color: transparent;
+      width: 300px;
+      outline: none;
+      font-size: 20px;
+      padding: 0 5px;
+    }
+
+    .input-box input:focus {
+      outline: none;
+    }
+
+    .form-buttons {
+      display: flex;
+      flex-direction:center;
+      justify-content: center;
+      align-items: center;
+      padding: 0 0px 0 0px;
+    }
+
+    .form-buttons button {
+      border: none;
+      padding: 12px;
+      font-size: 30px;
+      font-weight: bold;
+      margin: 30px 15px 10px 0;
+    }
+
+    /*buttons*/
+    #cadastrar {
+      color: white;
+      background-color: dodgerblue;
+    }
+    #sair {
+      color: white;
+      background-color: yellowgreen;
+    }
+
+    .form-buttons button:hover {
+      transform: scale(1.02);
+    }
